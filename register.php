@@ -13,7 +13,7 @@ if(isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Everdi - Signup</title>
+  <title>APM - Signup</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -40,7 +40,7 @@ if(isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini">Everdi</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><img src="img/logo.jpg" height="52" width="148" /></span>
+      <span class="logo-lg"><img src="img/logo.png" height="52" width="148" /></span>
     </a>
 
     <!-- Header Navbar: style can be found in header.less -->
@@ -49,7 +49,7 @@ if(isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <li>
-            <a href="review.php">Reviews</a>
+            <a href="login.php">Login</a>
           </li>
         </ul>
       </div>
@@ -62,7 +62,7 @@ if(isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
     <section class="content-header">
       <div class="container">
         <div class="row margin-top-50 margin-bottom-20">
-          <h1 class="text-center margin-bottom-20">Sign Up</h1>
+          <h1 class="text-center margin-bottom-20">Register</h1>
           <form method="post" id="signup-user" action="adduser.php" enctype="multipart/form-data">
             <div class="col-md-6 col-md-offset-3">
               <div class="form-group">
@@ -112,7 +112,7 @@ if(isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
 
   <footer class="main-footer" style="margin-left: 0px;">
     <div class="text-center">
-      <strong>Copyright &copy; 2018 <a href="#"> Everdi</a>.</strong> Developed by Romy Mua Tuuau. All rights reserved. 
+      <strong>Copyright &copy; 2019 <a href="#"> Auckland Property Management</a>.</strong> Developed by Romy Mua Tuuau. All rights reserved. 
     </div>
   </footer>
 

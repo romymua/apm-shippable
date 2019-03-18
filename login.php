@@ -2,7 +2,7 @@
 session_start();
 
 if(isset($_SESSION['userId'])) { 
-  header("Location: index.php");
+  header("Location: login.php");
   exit();
 }
 ?>
@@ -11,7 +11,7 @@ if(isset($_SESSION['userId'])) {
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Everdi</title>
+  <title>APM - Login</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -30,7 +30,7 @@ if(isset($_SESSION['userId'])) {
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="index.php"><b>Everdi</b> Portal</a>
+    <a href="index.php"><b>Auckland Property Management</b> <br> Portal</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
